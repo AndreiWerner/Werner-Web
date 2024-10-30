@@ -1,0 +1,371 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'v1';
+    src: url(Fonts/Baloo_Tamma_2/) format('truetype');
+}
+
+@font-face {
+    font-family: 'v2';
+    src: url(Fonts/BalooTamma2-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'v3';
+    src: url(Fonts/El_Messiri/ElMessiri-VariableFont_wght.ttf) format('truetype');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(61, 61, 61), rgb(37, 37, 37));
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width:50%;
+    height:40%;
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+}
+
+#bloco2 {
+    background-image: linear-gradient(to top, orange, black);
+    width: 40%;
+    height: 94vh;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+h2 {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'v2';
+}
+
+h1 {
+    font-size: 2.2em;
+    padding-top: 30px;
+    font-family: 'v3';
+    text-align: center;
+    color: white;
+}
+
+strong {
+    color: darkorange;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.76);
+    padding: 4px;
+    font-size: 1em;
+}
+
+#skills {
+    width: 60vw;
+    height: 13vh;
+    background-color: rgb(53, 51, 53);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.bloco {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tr {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.b1, .b2, .b3 {
+    background-color: rgb(43, 42, 42);
+    width: 10vw;
+    height: 5vh;
+    margin: auto;
+    border-radius: 20px;
+}
+
+ #hover:hover {
+
+    
+    border: 2px solid orange;
+    transition: transform .2s, border 2s;
+    transform: translate(-3px,-2px);
+
+}
+
+a {
+    text-decoration: none;
+
+}
+h3 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 2px;
+    background-image: linear-gradient(to right, orange, black);
+    border-radius: 20px 20px 0 0;
+    text-shadow: 1px 3px 15px rgba(248, 177, 83, 0.836);
+    font-family: 'v2';
+    letter-spacing: 20px;
+}
+
+.b1, .b2, .b3 {
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+p {
+    padding: 10px;
+}
+
+#imgs {
+    width: 4vw;
+    height: 5vh;
+}
+
+.about {
+    width: 90%;
+    height: 85vh;
+    background-color: rgb(46, 46, 46);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 60px;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 10px  black
+}
+
+.about > .op > p {
+    color: white;
+    font-family: 'v2';
+    padding: 14px;
+    font-size: 109%;
+}
+
+.social {
+    background-color: rgb(66, 66, 66);
+    width: 60vw;
+    height: 73vh;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+    background-image: url(img/picture.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 65%;
+    margin-left: 20px;
+    box-shadow: 1px 1px 15px black;
+}
+
+#redes > a > p {
+    color: white;
+    font-family: 'v2';
+    padding-bottom: 20px;
+    font-size: 85%;
+    text-shadow: 1px 1px 5px black;
+}
+
+#redes > a >  p > img {
+    width: 10%;
+    height: 8%;
+    vertical-align: middle;
+}
+
+#redes {
+    justify-content: space-between;
+    display: flex;
+}
+
+ .facebook,  .insta,  .git, .gmail {
+    width: 38%;
+    height: 7vh;
+    background-color: orange;
+    border-radius: 20px;
+    margin-left: 16px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 100px black;
+    font-weight: bold;
+}
+#redes:hover{
+    background-color: gold;
+    transition: transform .2s, border 2s;
+    transform: translate(-5px,-5px);
+}
+
+h4 {
+    color: white;
+    font-family: 'v2';
+    font-size: 1.5em;
+    text-indent: 50px;
+    padding-top: 20px;
+}
+
+#container {
+    justify-content: space-between;
+    display: flex;
+}
+#baixo {
+    background-color: rgb(66, 66, 66);
+    border-radius: 20px;
+    color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 10px black  ;
+    font-family: 'v2';
+    transition: transform .2s, border 2s;
+    transform: translate(-5px,-5px);
+    
+}
+/* Responsividade */
+
+@media (max-width: 1130px) {
+
+    .logo {
+        width:35%;
+        height:20%;
+        margin: auto;
+     
+
+    
+    }
+
+    #bloco2 {
+        width: 67%;
+        height: 97vh;
+        box-shadow: 1px 2px 19px black;
+    }
+
+    .about {
+        width: 70%;
+        height: 88vh;
+
+    }
+
+    .about > .op > p {
+        font-size: 90%;
+
+    }
+
+    #redes > a > p {
+        
+        font-size: 82%;
+      
+    }
+    .facebook,  .insta,  .git, .gmail {
+        width: 42%;
+        height: 7vh;
+    }
+
+}   
+
+@media (max-width: 790px) {
+    
+body {
+
+    background-image: linear-gradient(to right, rgb(61, 61, 61), rgb(37, 37, 37));
+
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+    #bloco2 {
+
+        width: 95%;
+        height: 30vh;
+        position: relative;
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .logo {
+        width:40%;
+        height:40%;
+        margin: auto;
+        padding-top: 2%;
+    
+    }
+
+    .about {
+        width: 100%;
+        height: 30vh;
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    .about > .op > p {
+        font-size: 62%;
+
+    }
+
+    .quadro {
+
+        padding-top: 200px;
+        position: absolute;
+        
+    }
+    #skills {
+        width: 100%;
+        height: 13vh;
+        background-color: rgb(53, 51, 53);
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-left: 10px;
+        box-shadow: 1px 3px 10px black;
+    }
+
+    .b1, .b2, .b3 {
+        background-color: rgb(43, 42, 42);
+        width: 7vw;
+        height: 4vh;
+        margin: auto;
+        border-radius: 20px;
+    }
+    
+    #imgs {
+        width: 6vw;
+        height: 4vh;
+    }
+    h3 {
+        color: white;
+        font-size: 0.8em;
+        letter-spacing: 20px;
+    }
+    .social {
+
+        width: 100%;
+        height: 73vh;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 25px;
+
+    }
+    
+    #redes > a > p {
+        
+        font-size: 75%;
+      
+    }
+    .facebook,  .insta,  .git, .gmail {
+        width: 48%;
+        height: 7vh;
+    }
+    
+}
+
