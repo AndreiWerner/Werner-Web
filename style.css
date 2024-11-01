@@ -325,12 +325,11 @@ body {
         
     }
     #skills {
-        width: 100%;
+        width: 90vw;
         height: 13vh;
         background-color: rgb(53, 51, 53);
         border-radius: 20px;
-        margin-top: 5px;
-        margin-left: 10px;
+        margin-right: 50%;
         box-shadow: 1px 3px 10px black;
     }
 
@@ -375,13 +374,17 @@ body {
 
     #redes > a > p {
         
-        font-size: 75%;
+        font-size: 77%;
+        padding: 0px;
+        padding-top: 10px;
+        margin: 0px;
       
     }
     .facebook,  .insta,  .git, .gmail {
-        width: 48%;
-        height: 7vh;
+        width: 50%;
+        height: 6vh;
         position: relative;
+        padding-left: 4PX;
     }
     
 }
