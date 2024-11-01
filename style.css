@@ -168,7 +168,7 @@ p {
 }
 
 #redes > a > p {
-    color: white;
+    color: rgb(255, 0, 0);
     font-family: 'v2';
     padding-bottom: 20px;
     font-size: 85%;
