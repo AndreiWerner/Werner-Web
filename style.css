@@ -231,7 +231,7 @@ h4 {
 }
 #baixo {
     background-color: rgb(66, 66, 66);
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
     margin: 20px;
     box-shadow: 1px 1px 10px black  ;
@@ -240,6 +240,37 @@ h4 {
     transform: translate(-5px,-5px);
     
 }
+
+#job {
+
+    width: 95%;
+    height: 3vh;
+    background-color: #3d3d3d;
+    margin: auto    ;   
+    border-radius: 10px;
+    padding: 0px;
+
+}
+/* Estilo do contêiner principal */
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Contêiner de imagens que vai deslizar */
+  .carousel-images {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Estilo das imagens individuais */
+  .carousel-images img {
+    width: 100%; /* Ajusta para a largura da tela */
+    max-height: 390px; /* Altura máxima */
+    object-fit: cover;
+
+  }
 /* Responsividade */
 
 @media (max-width: 1130px) {
@@ -336,7 +367,7 @@ h4 {
         position: absolute;
         
     }
-    #skills {
+    #skills {   
         margin-top: 25px;
         width: 90vw;
         height: 10vh;
@@ -428,6 +459,27 @@ h4 {
         margin: 10px;
         box-shadow: 1px 1px 10px black  ;
         font-family: 'v2';
+        
+    }
+
+    #job {
+        
+        margin-bottom: 3vh;
+        height: 52vh;
+        
+
+
+    }
+
+    #job > h1 {
+        font-family: 'v2'. Arial, Helvetica, sans-serif;
+        color: orange;
+        font-size: 1.4em;
+        text-shadow: 1px px 1px black;
+        padding: 4px;
+        letter-spacing: 4px;
+        background-color: rgb(49, 49, 49);
+        border-radius: 10px 10px 0px 0px
         
     }
 }
