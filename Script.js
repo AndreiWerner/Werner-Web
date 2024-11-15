@@ -62,22 +62,22 @@ bt.addEventListener('click', sair);
 
 // Função para mostrar a descrição
 function mostrarDescricao(tecnologia) {
-  baixo.style.width = '50vw';
-  baixo.style.height = '25vh';
-  baixo.style.padding = '23px';
-  baixo.style.marginTop = '20px';
-  baixo.style.marginBottom = '5px';
-  baixo.style.marginLeft = '55px';
-  baixo.style.fontSize = '74%';
+  baixo.style.width = '82%';
+  baixo.style.height = '21vh';
+  baixo.style.padding = '15px';
+  baixo.style.margin = 'auto'
+  baixo.style.marginLeft = '6%'
+  baixo.style.marginBottom = '5%'
+  
 
   if (tecnologia === "css") {
     baixo.style.border = '1px solid orange';
-    baixo.innerText = "CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para descrever a apresentação de documentos HTML...";
+    baixo.innerText = "CSS (Cascading Style Sheets) é uma linguagem de estilo que define a aparência de páginas web, controlando cores, fontes, espaçamentos e layouts. Ele permite separar o conteúdo do design, facilitando a criação de sites visualmente atraentes e responsivos para diferentes dispositivos.";
   } else if (tecnologia === "html") {
-    baixo.style.border = '1px solid blue';
-    baixo.innerText = "HTML (HyperText Markup Language) é a linguagem usada para estruturar conteúdo na web...";
+    baixo.style.border = '1px solid lightblue';
+    baixo.innerText = "HTML (HyperText Markup Language) é a linguagem de marcação usada para estruturar o conteúdo da web, organizando textos, imagens e links em uma página. Ele define a hierarquia e o layout básico, servindo como a fundação para o estilo com CSS e a interatividade com JavaScript.";
   } else if (tecnologia === "js") {
-    baixo.style.border = '1px solid yellow';
-    baixo.innerText = "JavaScript é uma linguagem de programação essencial para a web...";
+    baixo.style.border = '0.3px solid yellow';
+    baixo.innerText = "JavaScript é uma linguagem de programação que torna as páginas web interativas. Ele permite animações, validação de dados e resposta às ações do usuário em tempo real, criando experiências dinâmicas. Com HTML e CSS, JavaScript amplia as possibilidades para páginas ricas em recursos ";
   }
 }
