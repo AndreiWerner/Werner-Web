@@ -29,26 +29,24 @@ body {
     
 }
 
-section {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .logo {
-    width:50%;
-    height:40%;
+    width:20%;
+    height:70%;
     margin: auto;
     display: block;
     padding-top: 10px;
 }
 
+
 #bloco2 {
-    background-image: linear-gradient(to top, #ECA400, black);
-    width: 40%;
-    height: 94vh;
-    border-radius: 20px;
-    margin-right: 10px;
-    margin: 5px;
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin: auto;
+
 }
 
 h2 {
@@ -57,7 +55,7 @@ h2 {
     margin: 0px;
     text-align: center;
     font-family: 'v2';
-    font-size: 1em;
+    font-size: 1.4em;
     padding-top: 10px;
 }
 
@@ -70,27 +68,25 @@ h1 {
 }
 
 strong {
-    color: darkorange;
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.76);
+    color: #ECA400;
+    font-weight: bolder;
     padding: 4px;
     font-size: 1em;
 }
 
 #skills {
-    width: 60vw;
+    width: 50%;
     height: 13vh;
-    background-color:#3d3d3d ;
     border-radius: 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 20px;
-    box-shadow: 1px 1px 10px black;
+    margin: auto;
+    height: 6.5vh;
+    background-color: rgb(53, 51, 53);
+    box-shadow: 1px 3px 10px black;
+    border: 1px solid orange;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.bloco {
-    display: flex;
-    justify-content: space-between;
-}
 
 .tr {
     display: flex;
@@ -100,8 +96,8 @@ strong {
 
 .b1, .b2, .b3 {
     background-color:#2c2c2c;
-    width: 7vw;
-    height: 4vh;
+    width: 5vw;
+    height: 3vh;
     margin: auto;
     border-radius: 20px;
 }
@@ -145,16 +141,15 @@ p {
 #imgs {
     width: 3vw;
     height: 4vh;
+    margin-bottom: 4px;
 }
 
 .about {
-    width: 90%;
-    height: 85vh;
+    width: 70%;
+    height: 50vh;
     background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    margin: auto;
-    margin-top: 60px;
-    background-image: url(img/fundo.jpg);
+    margin-left: 0px;
+    background-image: url(img/about.png);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 1px 1px 10px  black
@@ -163,21 +158,20 @@ p {
 .about > .op > p {
     color: white;
     font-family: 'v2';
-    padding: 14px;
-    font-size: 109%;
+    padding-top: 37px;
+    font-size: 119%;
 }
 
 .social {
     background-color: rgb(66, 66, 66);
-    width: 60vw;
+    width: 95%;
     height: 73vh;
     border-radius: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: auto;
     box-shadow: 1px 1px 15px black;
     background-image: url(img/picture.png);
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 40%;
     background-position: bottom right;
 }
 
@@ -202,7 +196,7 @@ p {
 }
 
  .facebook,  .insta,  .git, .gmail {
-    width: 38%;
+    width: 30%;
     height: 7vh;
     background-color: orange;
     border-radius: 20px;
@@ -238,47 +232,149 @@ h4 {
     font-family: 'v2';
     transition: transform .2s, border 2s;
     transform: translate(-5px,-5px);
+    font-size: 1.2em;
     
+}
+
+.quadro {
+    
+    margin-bottom: 50px;
+
 }
 
 #job {
 
-    width: 100%;
-    height: 185vh;
-    background-color: #3d3d3d;
-    margin: auto    ;   
+    width: 99%;
+    height: 80vh;
+    margin: 10px;   
     border-radius: 10px;
     padding: 0px;
 
 }
-/* Estilo do contêiner principal */
-.carousel-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  /* Contêiner de imagens que vai deslizar */
-  .carousel-images {
+.carousel-images {
+
     display: flex;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  /* Estilo das imagens individuais */
-  .carousel-images img {
-    width: 190vw; /* Ajusta para a largura da tela */
-    height: 367px; /* Altura máxima */
-    object-fit: cover;
-    
-
-  }
-
-#quest
-{
 
 
 }
 
+#img1,#img2, #img3 {
+
+    margin: auto;
+    padding: 5px;    
+    width: 30%;
+    height: 65vh;
+    background-color: #3d3d3d;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 10px;
+
+}
+.carousel-container > .carousel-images > img {
+    
+    width: 100%;
+
+}
+
+
+
+#job  h1 {
+
+    font-family: 'v2', Arial, Helvetica, sans-serif;
+    color: orange;
+    font-size: 1.4em;
+    text-shadow: 1px px 1px black;
+    padding: 3px;
+    margin: auto;
+    letter-spacing: 5px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px 10px 0px 0px;
+    width: 97%;
+
+}
+
+
+#quest {
+
+    width: 95%;
+    background-color: #2c2c2c;
+    border: 1px solid orange;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: left;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+
+}
+
+#quest > h1 {
+
+    font-family: 'v2';
+    font-size: 1.9em;
+    margin-bottom: 25px;
+
+}
+
+#quest > ul {
+    columns: 2;
+    list-style-type: none;
+    margin: auto ;   
+    
+}
+
+#quest > ul > details {
+
+
+    margin-bottom: 15px;
+
+}
+
+ #quest > ul > details  summary {
+
+    background-color: rgb(34, 34, 34);
+    margin: auto;
+    width: 92%;
+    padding: 1%;
+    border: 1px solid white;
+    color: white;
+
+
+}
+
+#quest ul > details > p {
+
+    display: inline-block;
+    width: 91%;
+    background-color: #3d3d3d;
+    margin-left: 17px;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid white;
+
+
+
+}
+
+#quest > ul {
+
+    color: white;
+    font-family: 'v2';
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+footer {
+
+    background-color: black;
+    color: white;
+    font-family: 'v2';
+    font-size: large;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 /* Responsividade */
 
@@ -331,7 +427,6 @@ h4 {
     body {
         background-image: url(img/body.jpeg);
         background-repeat: repeat;
-        background-size: cover;
     }
 
 * {
@@ -341,7 +436,7 @@ h4 {
     #bloco2 {
 
         width: 100vw;
-        height: 28vh;
+        height: 26vh;
         position: relative;
         padding: 0px;
         margin: 5px;
@@ -352,39 +447,49 @@ h4 {
         height:40%;
         margin: auto;
         padding-top: 2%;
+
     
     }
 
     .about {
         width: 90vw;
-        height: 28vh;
+        height: 26vh;
         position: relative;
         padding: 0px;
         margin: 0px;
+        background-size: 290%;
+        background-position: center bottom;
+        background-repeat: no-repeat;
         
+    }
+
+    .op > h2 {
+
+        font-size: 1em;
     }
 
     .about > .op > p {
         font-size: 60%;
+        padding: 10px;
+        text-align: justify;
 
     }
 
     .quadro {
 
         width: 100%;
-        top: 230px;
-        position: absolute;
+        margin-bottom: 50px;
         
     }
     #skills {   
+        margin: auto;
         margin-top: 20px;
-        width: 90vw;
+        margin-bottom: 20px;
+        width: 95%;
         height: 6.5vh;
         background-color: rgb(53, 51, 53);
         border-radius: 20px;
-        margin-right: 50%;
         box-shadow: 1px 3px 10px black;
-        margin-bottom: 20px;
         border: 1px solid orange;
     }
 
@@ -400,7 +505,7 @@ h4 {
 
     #baixo {
 
-        font-size:0.9em;
+        font-size:0.8em;
         text-align: justify;
 
     }
@@ -488,9 +593,9 @@ h4 {
 
     #job {
         
-        margin-bottom: 3vh;
+       margin: auto;
         height: 0vh;
-        margin-bottom: 450px;
+     
         
     }
 
@@ -507,20 +612,44 @@ h4 {
     }
 
 
-    .carousel-images img {
-        width: 100%; /* Ajusta para a largura da tela */
-        height: 387px; /* Altura máxima */
-        object-fit: cover;
-    }
+  /* Estilo do contêiner principal */
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Contêiner de imagens que vai deslizar */
+  .carousel-images {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Estilo das imagens individuais */
+  .carousel-images img {
+    width: 100%; /* Ajusta para a largura da tela */
+    height: 317px; /* Altura máxima */
+    object-fit: cover;
+    
+
+  }
+
+  #img1, #img2, #img3 {
+    width: 100%;
+    height: 49vh;
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+  }
 
     #quest {
 
         width: 95%;
-        height: 60vh;
         background-color: #2c2c2c;
         border: 1px solid orange;
         margin: auto;
         border-radius: 10px;
+        margin-top:520px ;
 
     }
 
@@ -534,25 +663,52 @@ h4 {
     #quest > ul {
         columns: 1;
         list-style-type: none;
+
         
     }
 
-     #quest > ul > li {
+    #quest > ul > details {
 
+
+        margin-bottom: 15px;
+    
+    }
+    
+     #quest > ul > details  summary {
+    
         background-color: rgb(34, 34, 34);
-        margin: 15px;
-        border-radius: 15px;
+        margin: auto;
         width: 92%;
-
-
-    }
-
-    #quest > ul > li > p {
+        padding: 2%;
+        border: 1px solid white;
         color: white;
-        font-family: 'v2';
-        text-align: left;
-        
+        font-size: 0.8em;
+        border-radius: 10px;
+
+    
+    
+    }
+    
+    #quest ul > details > p {
+    
+        display: inline-block;
+        width: 88.5%;
+        background-color: #3d3d3d;
+        margin-left: 3%;
+        border-radius: 0px 0px 10px 10px;
+        border: 1px solid white;
+    
+    
+    
+    }
+    
+
+    footer {
+
+        font-size: 0.9em;
 
     }
+
+
 
 }
